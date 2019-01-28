@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "initializationOptions": {
+    "displayOptions": {
+      "preferredFormat": "plaintext",
+      "trimDocumentationLines": true,
+      "maxDocumentationLineLength": 0,
+      "trimDocumentationText": true,
+      "maxDocumentationTextLength": 0
+    },
+    "interpreter": {
+      "properties": {
+        "InterpreterPath": "/home/fcf/anaconda3/envs/pesquisas/bin/python",
+        "UseDefaultDatabase": true,
+        "Version": "3.6.7"
+      }
+    }
+  }
+}
+

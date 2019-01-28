@@ -1,0 +1,35 @@
+{
+  "coc.preferences.triggerSignatureHelp": true,
+  "languageserver":{
+    "MPLS":{
+      "command": "dotnet",
+      "args": ["exec", "/home/fcf/microsoft-lsp/python-language-server/output/bin/Release/Microsoft.Python.LanguageServer.dll"],
+      "filetypes": ["python"],
+      "initializationOptions": {
+        "interpreter": {
+          "properties": {
+            "InterpreterPath": "/home/fcf/anaconda3/envs/pesquisas/bin/python",
+            "UseDefaultDatabase": true,
+            "Version": "3.6.7"
+          }                    
+        }
+      }
+    },
+  }
+}
+// "languageserver": {
+//   "MPLS":{
+//     "command": "dotnet",
+//     "args": ["exec", "/home/fcf/microsoft-lsp/python-language-server/output/bin/Release/Microsoft.Python.LanguageServer.dll"],
+//     "filetypes": ["python"],
+//     "initializationOptions": {
+//       "interpreter": {
+//         "properties": {
+//           "InterpreterPath": "/home/fcf/anaconda3/envs/pesquisas/bin/python",
+//           "UseDefaultDatabase": true,
+//           "Version": "3.6.7"
+//         }
+//       }
+//     }
+//   }
+// }
