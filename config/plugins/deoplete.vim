@@ -188,4 +188,8 @@ function! s:is_whitespace() "{{{
 endfunction "}}}
 " }}}
 
+set runtimepath+=/home/fcf/.cache/vim/dein/repos/github.com/Shougo/deoplete.nvim/
+call deoplete#custom#option('sources', {
+\ 'python': ['LanguageClient'],
+\})
 " vim: set foldmethod=marker ts=2 sw=2 tw=80 noet :
