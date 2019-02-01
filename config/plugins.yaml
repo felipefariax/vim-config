@@ -390,11 +390,11 @@
   on_event: CompleteDone
   hook_post_source: call echodoc#enable()
 
-- repo: Raimondi/delimitMate
-  on_event: InsertEnter
-  hook_source: |
-    let g:delimitMate_expand_cr = 1
-    let g:delimitMate_excluded_ft = 'html'
+# - repo: Raimondi/delimitMate
+#   on_event: InsertEnter
+#   hook_source: |
+#     let g:delimitMate_expand_cr = 1
+#     let g:delimitMate_excluded_ft = 'html'
 
 - { repo: Shougo/neosnippet-snippets, lazy: 1 }
 - { repo: Shougo/context_filetype.vim, lazy: 1 }

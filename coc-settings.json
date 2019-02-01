@@ -2,11 +2,11 @@
 {
   "coc.preferences.snippetIndicator": "\ue796",
   "coc.preferences.minTriggerInputLength": 1,
-  "coc.preferences.diagnostic.errorSign": "\uf65b",
-  "coc.preferences.diagnostic.warningSign": "\uf421",
-  "coc.preferences.diagnostic.infoSign": "ℹ",
-  "coc.preferences.diagnostic.hintSign": "➤",
-  "coc.preferences.diagnostic.displayByAle": true,
+  // "coc.preferences.diagnostic.errorSign": "\uf65b",
+  // "coc.preferences.diagnostic.warningSign": "\uf421",
+  // "coc.preferences.diagnostic.infoSign": "ℹ",
+  // "coc.preferences.diagnostic.hintSign": "➤",
+  "coc.preferences.diagnostic.displayByAle": false,
   "$schema": "./data/schema.json",
   "coc.preferences.autoTrigger": "always",
   "coc.preferences.snippets.enable": true,
@@ -78,12 +78,25 @@
   "http.proxy": "",
   "http.proxyStrictSSL": true,
   "languageserver":{
-    "MPLS":{
-      "command": "dotnet",
-      "args": ["exec", "/home/fcf/microsoft-lsp/python-language-server/output/bin/Release/Microsoft.Python.LanguageServer.dll"],
+//    "MPLS":{
+//      "command": "dotnet",
+//      "args": ["exec", "/home/fcf/microsoft-lsp/python-language-server/output/bin/Release/Microsoft.Python.LanguageServer.dll"],
+//      "filetypes": ["python"],
+//      "initializationOptions": {
+//        // "cacheDirectory": "/tmp/mpls",
+//        "interpreter": {
+//          "properties": {
+//            "InterpreterPath": "/home/fcf/anaconda3/envs/pesquisas/bin/python",
+//            "UseDefaultDatabase": true,
+//            "Version": "3.6.7"
+//          }
+//        }
+//      }
+//    },
+    "pyls":{
+      "command": "/home/fcf/anaconda3/envs/pesquisas/bin/pyls",
       "filetypes": ["python"],
       "initializationOptions": {
-        // "cacheDirectory": "/tmp/mpls",
         "interpreter": {
           "properties": {
             "InterpreterPath": "/home/fcf/anaconda3/envs/pesquisas/bin/python",
