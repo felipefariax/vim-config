@@ -6,8 +6,8 @@
    elseif g:VIM_Snippets ==# 'coc-snippets'
        let g:Coc_Snippet = 'coc-snippets'
    endif
+               "\   'coc-dictionary', 'coc-word', 'coc-emoji',
    call coc#add_extension(
-               \   'coc-dictionary', 'coc-word', 'coc-emoji',
                \   g:Coc_Snippet, 'coc-tag',
                \   'coc-html', 'coc-css',
                \   'coc-emmet', 'coc-highlight', 'coc-rls',

@@ -9,12 +9,13 @@
 let g:LanguageClient_loadSettings = 1
 let g:LanguageClient_settingsPath = '/home/fcf/.config/nvim/settings.json'
 
-let g:LanguageClient_serverCommands = {
- \'python' : ['/usr/bin/dotnet', 'exec', '/home/fcf/microsoft-lsp/python-language-server/output/bin/Release/Microsoft.Python.LanguageServer.dll']
- \ }
 " let g:LanguageClient_serverCommands = {
-"  \'python' : ['/home/fcf/anaconda3/envs/pesquisas/bin/pyls']
-"  \ }
+" \'python' : ['/usr/bin/dotnet', 'exec', '/home/fcf/microsoft-lsp/python-language-server/output/bin/Release/Microsoft.Python.LanguageServer.dll']
+" \ }
+
+let g:LanguageClient_serverCommands = {
+ \'python' : ['/home/fcf/anaconda3/envs/pesquisas/bin/pyls']
+ \ }
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
 " Or map each action separately
